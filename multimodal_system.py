@@ -13,7 +13,6 @@ import json
 from transformers import AutoModelForAudioClassification, AutoFeatureExtractor
 
 # 1. CONFIGURATION
-
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # DYNAMIC PATHS
