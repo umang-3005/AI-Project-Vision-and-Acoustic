@@ -8,7 +8,6 @@ import time
 import os
 
 # 1. CONFIGURATION & ASSETS
-
 # PATHS
 MODEL_PATH = "rafdb_resnet50_6classes_weighted.pth"
 
