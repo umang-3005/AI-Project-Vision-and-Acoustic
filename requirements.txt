@@ -1,0 +1,42 @@
+# Python: >=3.11 (recommended 3.11 or 3.12)
+
+# --- Core ML stack ---
+torch>=2.9.1  # PyTorch for model training and inference
+torchvision>=0.10.0  # PyTorch vision utilities
+torchaudio>=2.9.1  # PyTorch audio utilities
+transformers>=4.57.3  # Hugging Face Transformers for WavLM
+datasets==4.4.2
+accelerate==1.12.0
+huggingface-hub==1.2.3
+tokenizers==0.22.1
+safetensors==0.7.0
+
+# --- Data / metrics ---
+numpy>=2.4.0  # Numerical computations
+pandas==2.3.3
+scikit-learn>=1.8.0  # Machine learning utilities
+pyarrow==22.0.0
+
+# --- Audio I/O + mic recording ---
+sounddevice>=0.5.3  # Audio recording and playback
+soundfile==0.13.1
+
+# --- Kaggle dataset download ---
+kagglehub>=1.0.0  # Kaggle dataset downloader
+kaggle==1.8.3
+requests==2.32.5
+PyYAML==6.0.3
+tqdm>=4.67.1  # Progress bar for loops
+packaging==25.0
+
+# --- Notebook runtime (so the .ipynb runs on a fresh machine) ---
+notebook==7.5.1
+jupyterlab==4.5.1
+ipykernel==7.1.0
+
+# --- Image processing ---
+Pillow>=8.0.0  # Image processing library
+albumentations>=1.0.0  # Data augmentation for image preprocessing
+facenet-pytorch>=2.5.2  # Face detection and alignment
+mediapipe>=0.8.0  # MediaPipe for additional face detection utilities
+opencv-python>=4.5.0  # OpenCV for camera access, face detection, and frame processing
